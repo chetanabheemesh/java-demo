@@ -1,5 +1,6 @@
 # java-demo
 
+sudo amazon-linux-extras install java-openjdk11  
 echo "export JAVA_HOME=export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-11.0.13.0.8-1.amzn2.0.3.x86_64/"" >> /home/$USER/.bashrc
 echo "export PATH=$JAVA_HOME/bin:$PATH" >> /home/$USER/.bashrc
 source /home/$USER/.bashrc
